@@ -3116,7 +3116,7 @@
             }
           ],
           "_mark": "poster_label",
-          "_content": "[LABEL Sim-Gop 3. Полицейская история.][BGNDIMAGE poster.png][MUSIC poster][AMBIENT none][ANSWERSORDER OFF]"
+          "_content": "[LABEL Sim-Gop 3. Полицейская история.][BGNDVIDEO poster][BGNDIMAGE poster.png][MUSIC poster][AMBIENT none][ANSWERSORDER OFF]"
         }
       ]
     }

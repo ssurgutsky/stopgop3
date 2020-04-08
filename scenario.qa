@@ -1,4 +1,4 @@
-[poster_label]Sim-Gop 3. Полицейская история.[BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]
+[poster_label]Sim-Gop 3. Полицейская история.[BGNDVIDEO poster][BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]
 	[play_game]START THE GAME / Начать игру.
 		[mark_u4t9ekyx6kycu0y3oscl][VIDEO none][IMAGE black.jpg]Полицейский! Совершается преступление![AUDIO AttentionCrimeInProgress]
 			
