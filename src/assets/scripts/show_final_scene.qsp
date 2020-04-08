@@ -1,0 +1,8 @@
+let result = '';
+if (this.loud == 0) {result = '[VIDEO boss_said_victim]'}
+result = result + '[ANSWERTIME 5][TIMEEXPIRED shot]';
+result = result + '[BGNDVIDEO boss_aims_victim]';
+result = result + '[BGNDIMAGE ';
+result = result + 'brick.png|' + this.brickX + ';' + this.brickY + ';0.4;0.4;0;1&';
+result = result + this.cat_pic_name +'.png|' + this.catX + ';' + this.catY + ';-0.4;0.4;0;1]';
+result;

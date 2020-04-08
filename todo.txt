@@ -1,0 +1,7 @@
+Poster 640x480
+][BGNDVIDEO battlefield
+][ hero_in_camera
+
+Удалить ненужные видео (torture_victim1,2 etc)
+
+вставить IAP на эпизоды

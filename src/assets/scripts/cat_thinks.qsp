@@ -1,0 +1,17 @@
+if ((this.loud == 1) && (this.cat_pos == 4)) {this.brick_falling=1}
+
+if (this.loud == 0) {this.cat_pos++} else {this.cat_pos--}
+if (this.cat_pos > 5) {this.cat_pos=5}
+if (this.cat_pos < 0) {this.cat_pos=0}
+
+if (this.cat_pos < 4) {this.cat_pic = 1 + parseInt(Math.random()*2)}
+if (this.cat_pos == 4) {this.cat_pic=3}
+if (this.cat_pos > 4) {this.cat_pic=4}
+if (this.cat_pos == 5) {this.cat_pic=1}
+
+if (this.loud) {this.cat_pic=4}
+
+this.catX=this.cat_posXY[this.cat_pos][0];
+this.catY=this.cat_posXY[this.cat_pos][1];
+this.cat_pic_name=this.cat_pics[this.cat_pic];
+"";

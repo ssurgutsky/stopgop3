@@ -1,0 +1,9 @@
+this.cat_posXY=[[-1000,-1000],[75,15],[150,28],[225,38],[350,50],[390,65],[-1000,-1000]];
+this.cat_pos=0;
+this.cat_pics=['','cat_walk1','cat_walk2','cat_sit','cat_jump'];
+this.cat_pic=0;
+this.brick_posXY=[[-1000,-1000],[300,80],[300,120],[300,160],[300,210],[-1000,-1000]];
+this.brick_pos=1;
+this.loud=0;
+this.brick_falling=0;
+'';

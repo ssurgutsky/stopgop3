@@ -1,0 +1,6 @@
+if (this.brick_falling) {this.brick_pos++;}
+if (this.brick_pos >= 5) {this.brick_pos=5;}
+
+this.brickX=this.brick_posXY[this.brick_pos][0];
+this.brickY=this.brick_posXY[this.brick_pos][1];
+"";

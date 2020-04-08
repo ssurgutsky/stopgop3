@@ -1,0 +1,565 @@
+[poster_label]Sim-Gop 3. Полицейская история.[BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]
+	[play_game]START THE GAME / Начать игру.
+		[mark_u4t9ekyx6kycu0y3oscl][VIDEO none][IMAGE black.jpg]Полицейский! Совершается преступление![AUDIO AttentionCrimeInProgress]
+			
+				[GAME_SAVEPOINT,EPISODE1]Полицейский! Совершается преступление![VIDEO gangsters_are_turning][AUDIO silent_2][BGNDVIDEO gangsters_look_gloomily_loop][AMBIENT AmbientStreet][MUSIC Meeting][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+					Ребята, закурить не найдется?
+						[mark_170fr6wre6n1sk5h9geo]Подожди пять сек, сейчас кента заколбасим и покурим.[AUDIO Wait5secKentBeat][VIDEO gangster2_said_gloomily][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+							За что вы его?[VIDEO gangsters_are_turning]
+								[mark_k7iv2v7k815067680va7]Бабло отдавать не хочет.[AUDIO BabloNeOtdaet][VIDEO gangster2_said_gloomily][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+									Давайте его мне, я разберусь.
+										[mark_y2ic2axp11m8b9i6qn1f]Слышь, сам себе лоха ищи и тряси.[AUDIO LookYourLohShakeHim][VIDEO gangster1_said_gloomily][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+											Обещаю, он ответит по всей строгости закона.
+												[hey_policemen_passing]Слышь, ментовой, проходи мимо...[VIDEO gangster1_said_gloomily][AUDIO HeyPolicemanGoAround][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+													[I_am_new_russian_policeman]Я - новый русский полицейский.
+														[what_do_you_want]Те чо надо?[VIDEO gangster1_said_gloomily][AUDIO WhatDoYouWant][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+															Мой долг предотвращать преступления.[VIDEO gangster2_pulls_knife]
+																[mark_nngdok9en7yb83058ww9]Чувакан, ты чо герой? Перо в бочару захотел?[VIDEO gangster2_said_with_knife][AUDIO AreYouHero][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																	Спокойно, спокойно, давайте просто поговорим...[VIDEO gangster2_removed_knife]
+																		[mark_24w2h50tdqs608k9vmil]С ментами не балакаем![VIDEO gangster2_said_thug][AUDIO DontTalkWithPolicemans][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																			Ты уже пять минут как балакаешь.
+																				[mark_8949419ayuz196h74ncc]Может ты и не мент. Покажи ксиву.[VIDEO gangster1_said_thug][AUDIO ShowDocs][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																					Униформу видишь?
+																						[mark_zw2865f851510b50883j]У елдаша на рынке притарил.[VIDEO gangster1_said_thug][AUDIO BuyFromEldash][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																							[show_document]Вот мое удостоверение.[VIDEO hero_shows_docs]
+																								[mark_j6e9720jeezy61wjtghl]Подь сюды, покажи ближе свою промокашку.[VIDEO gangsters_look_docs][AUDIO ShowYourPaper][BGNDVIDEO gangsters_look_docs][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																									А пистолет тебе пострелять не дать? Оно настоящее.[VIDEO hero_hides_docs]
+																										[and_what]И чо с того?[VIDEO gangster1_said_thug][AUDIO AndSoWhat][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																											[give_me_your_docs]Предъявите ваши документы.
+																												[mark_ymoz2zsgbb1628ns62ul]Был бы я мент, то носил бы документ![VIDEO gangster1_said_scoff][AUDIO IfIWillBePolicemanHaveDocs][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																													Тогда придется пройти в отделение.
+																														[mark_3d77z78t9t24se4y0xjs]Кореш мой также в ментовку загремел. И щас там работает![VIDEO gangster1_said_thug][AUDIO HomyWorksInPolice][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																															[go_to_police_department]Пройдемте в отделение.
+																																[EPISODE2]Слышь, на каком основании?[VIDEO gangster1_said_thug][AUDIO HeyWhatReason][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired][MUSIC Graters]
+																																	По подозрению в совершении преступления.
+																																		[mark_m6h1s74vzudp9e4l918y]Сперва пусть следак мне повестку отобъет.[VIDEO gangster1_said_thug][AUDIO GiveMeNoticeFromPolice][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																			Я тебя на месте преступления застал.
+																																				[what_crime]Какого преступления?[VIDEO gangster1_said_thug][AUDIO WhatCrime][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																					Уголовного преступления.
+																																						[show_ruling]Если я задержан, предъяви постановуху.[VIDEO gangster1_said_thug][AUDIO IfIArrestedGiveMeNotice][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																							Следователь предъявит.
+																																								[gangstar_roof]Мент, ты в курсях, кто наш бугор?[VIDEO gangster1_said_thug][AUDIO DoYouKnowWhoOurBoss][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																									Кто?
+																																										[mark_eg2c6xo21h3uu79hme5z]Прокурор.[VIDEO gangster1_said_thug][AUDIO Prokuror][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																											Значит ты общаешься с ментами?
+																																												[mark_a2g753txu9s0q1m5t764]Эээ! Ты не путай понятия![VIDEO gangster1_said_agressive][AUDIO HeyDontChangeUnderstandings][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																													Отпусти парня, и я никому не скажу про то, что ты водишься с ментами.
+																																														[mark_5u8ew550h17c5ii8o91k]Я не вожусь с ментами![VIDEO gangster1_said_agressive][AUDIO IamNotFriendWithPolicemans][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																															Ты только что сам сказал, что у тебя ментовская крыша.
+																																																[mark_0hoquxk4lz6f43y6v8w3]Чо ты метелишь?[VIDEO gangster1_said_agressive][AUDIO WhatDoYoSpeaking][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																	Вспомнил! Я видел тебя в РОВД.
+																																																		[mark_e7b4ow949m74of622575]Чо? Када? За базар отвечаешь?[VIDEO gangster1_said_scared][AUDIO WhatWhenPayForWords][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																			Ты тот самый стукач, который сдает нам своих корешей.
+																																																				[EPISODE3]Слышь, так это ты слил моего братуху?[VIDEO gangster2_said_gangster1_scared][AUDIO HeyDidYouStreamMyBro][MUSIC uncertainty]
+																																																					
+																																																						[mark_21o4j1440i9m460l208a]Кому ты веришь? Мочи мента![VIDEO gangster1_said_gangster2_scared][AUDIO WhomDoYouBelieve][BGNDVIDEO gangster1_looks_scared_loop][SOUNDFX serene][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																							Слышишь сирену? Сейчас здесь будет спецназ.
+																																																								[mark_88nwghrwzdr0d99506z9]Мочи мента!!![VIDEO gangster1_said_gangster2_scared][AUDIO KillPoliceman][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																									[he_framed_your_brother]Да, да! Это он сдал твоего брата!
+																																																										[mark_2d8br51t92c4ndcolekp]Скажи погоняло моего братухи.[VIDEO gangster2_said_hero_gangster1_scared][AUDIO SayNicknameOfMyBro][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																											Сиплый.
+																																																												[do_not_listen_to_him]Слух! Он семерки плетёт! Я своих не сдаю!!! Мочи мента![VIDEO gangster1_said_gangster2_scared][AUDIO SevensMaking][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																													
+																																																														[mark_d0g10448k5st3pev6j3j][GOTO woman_cry, have_you_proof]
+																																																															
+																																																																[woman_cry]Женский голос с балкона: - Ну сколько можно шуметь! Убивайте быстрей и дайте людям поспать![VIDEO gangsters_look_gloomily_loop][AUDIO WomanCry]
+																																																																	
+																																																																		[mark_oc0vq5cxq89x18152991]Слышь, тёлка, ты это нам или менту?[VIDEO gangster1_said_gloomily][AUDIO HeyWoman]
+																																																																			
+																																																																				[have_you_proof]У тебя есть доказуха?[VIDEO gangster2_said_gloomily][AUDIO DoYouHaveProovements][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																																					Подумай сам, почему прокурор не отмазал твоего брата?
+																																																																						[mark_u69tiipv34tm950ocsli]Почему?[VIDEO gangster2_said_hero_gangster1_scared][AUDIO Why][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																																							Почему прокурор не посадил его вместе с твоим братом?
+																																																																								[mark_po7k659an9n462gbsdc3]Почему?[VIDEO gangster2_said_hero_gangster1_scared][AUDIO Why][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																																									Потому что стукачей не садят!
+																																																																										[mark_f2tng8d1zkjq37hcsdt5]- Ах ты падла! Получай за брата!!! - Это был не я! Получи, дебил!!!![VIDEO gangster1_gangster2_kills][AUDIO silent_4.1]
+																																																																											
+																																																																												[EPISODE4][BGNDVIDEO battlefield][MUSIC Happened]
+																																																																													Эй, парень, ты как?[VIDEO victim_lean_wall]
+																																																																														[mark_o27xq730109yrm91aedp][AUDIO silent_1.9][VIDEO hero_comes_to_victim]
+																																																																															
+																																																																																[mark_662810m030u54810v84m]Могло бы... быть и хуже...[VIDEO victim_sit_said_hero][AUDIO MayBeWorse][BGNDVIDEO victim_sit_looks_loop][ANSWERTIME 20][TIMEEXPIRED Mark_Final21_1]
+																																																																																	Где то у меня был наркоманский жгут, остановить кровь...[VIDEO hero_shows_identikit]
+																																																																																		[mark_454kp1gly34x68xd45j7]Сейчас найду... так, что тут... ориентировка...[VIDEO hero_looks_identikit][AUDIO FoundIdentikit]
+																																																																																			
+																																																																																				[mark_08p6p06p45w18e57z5tm]Что за черт??? Это же ты![VIDEO hero_looks_identikit][AUDIO ThatsYou][ANSWERTIME 20][TIMEEXPIRED Mark_Final21]
+																																																																																					>>>[VIDEO hero_hides_identikit]
+																																																																																						[mark_9em4am1cf43x4lx55345][BGNDVIDEO victim_aims_hero][ANSWERTIME 20][TIMEEXPIRED Mark_Final21]
+																																																																																							Я же тебе жизнь спас!
+																																																																																								[mark_9wad6603118t2818sjfm]Пригнись.[VIDEO victim_aims_hero_and_said][AUDIO Duck][BGNDVIDEO victim_aims_hero][ANSWERTIME 20][TIMEEXPIRED shot]
+																																																																																									Отпрыгну в сторону.[VIDEO hero_jumps_from_victim]
+																																																																																										[mark_h1z3oy7i14a01i8w5226][BGNDVIDEO hero_looks_victim_aimed][ANSWERTIME 20][TIMEEXPIRED hey_smartass]
+																																																																																											Обернусь.[VIDEO hero_turns_to_boss]
+																																																																																												[EPISODE5]{script init.qsp}Ну здравствуй, братишка! Бросай пушку, ты и стрелять то не умеешь...{script cat_thinks.qsp}{script brick_thinks.qsp}[AUDIO HelloBroDropGun][MUSIC poster]{script show_final_scene.qsp}
+																																																																																													Замру.
+																																																																																														[mark_s61yi8mxc6n2a3d24th4]Я тебе больше не брат! Мне надоело расплачиваться за твои грязные дела.[VIDEO victim_said_boss][AUDIO ImNotYourBro][BGNDVIDEO hero_looks_victim_aimed][ANSWERTIME 20][TIMEEXPIRED shot]
+																																																																																															[GOTO screaming]
+																																																																																															Промолчу.
+																																																																																																[mark_j6x79qj0leq5je5a8r67]Если бы ты слушал меня, этого бы не было...{script cat_thinks.qsp}[AUDIO IfYouListenMe]{script show_final_scene.qsp}
+																																																																																																	Значит вы братья-близнецы, один плохой, а другой неудачник?
+																																																																																																		[mark_w4vu8dx0q4026xb1q6w4]Еще что-нибудь хрюкнешь, пристрелю...{script cat_thinks.qsp}[AUDIO IfYouHruIllKillYou]{script show_final_scene.qsp}
+																																																																																																			[GOTO screaming]
+																																																																																																			Промолчу.
+																																																																																																				[speech4]Я не хочу жить по твоим правилам... хватит.[VIDEO victim_said_boss][AUDIO IdontLiveYourRules][BGNDVIDEO hero_looks_victim_aimed][ANSWERTIME 20][TIMEEXPIRED shot]
+																																																																																																					>>>
+																																																																																																						[mark_m089182dvh3884946qpk]Хахаха. Думаешь у тебя есть выбор?{script cat_thinks.qsp}[AUDIO DoYouThinkYouHaveChoice]{script show_final_scene.qsp}
+																																																																																																							[screaming]Чихну.
+																																																																																																								[mark_syx8p9q4r6zj07zg51m8][SOUNDFX sneeze]
+																																																																																																									
+																																																																																																										[mark_k8e5d52132w2ri70y40s]{this.loud=1;'';}{if (this.cat_pos != 4) {'[GOTO shot]';}}
+																																																																																																											
+																																																																																																												[mark_v04a7h1998z6bvi9cqas][SOUNDFX cat_cry]{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																													>>>
+																																																																																																														[mark_3857ry838mz50k4140w8]{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																															>>>
+																																																																																																																[mark_1b5t5u913b9n92sh0ltf]{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																																	>>>[VIDEO boss_falls_down]
+																																																																																																																		[Mark_Final1]Поздравления! Ты убил криминального Босса и всех бандитов! Главный финал![AUDIO silent_0.208][VIDEO dead_boss]
+																																																																																																																			Смотреть финальные титры.
+																																																																																																																				[EPISODE6]Главный положительный финал! Понравилось? Подкинь деньжат на следующую часть https://money.yandex.ru/to/41001220674141[MUSIC ThemeFinal][BGNDVIDEO titles][AMBIENT none]
+																																																																																																																					Не дам денег.
+																																																																																																																						[mark_7l100t75671nv41uxjhl]Гони бабло! Или умри... Гони бабло! Или умри... Гони бабло! Или умри...[BGNDVIDEO boss_said_player][BGNDAUDIO GiveMoneyOrDie]
+																																																																																																																							Ладно, ладно, дам бабло!
+																																																																																																																								[Mark_Final1_1]https://money.yandex.ru/to/41001220674141
+																																																																																																																							Да пошёл ты!
+																																																																																																																								[Mark_Final39][FINAL Тебя всё-таки пристрелил Босс. Отрицательный финал.][VIDEO boss_kills_player][SOUNDFX sfx_shot]
+																																																																																																																					Отправлю деньжат.
+																																																																																																																						[mark_090r4w84xoif45q17u1n][GOTO Mark_Final1_1]
+																																																																																																							Промолчу.
+																																																																																																								[mark_h8bjh70nu5oev964m751]Ну что ж... пусть будет по твоему.{script cat_thinks.qsp}{script brick_thinks.qsp}[AUDIO SoLetItBeYours]{script show_final_scene.qsp}{this.loud=1;'';}
+																																																																																																									>>>[VIDEO boss_kills_victim][SOUNDFX sfx_shot]
+																																																																																																										[policemen_control_shoot]Твоя очередь...{script cat_thinks.qsp}{script brick_thinks.qsp}[AUDIO YourTurn]{script show_final_scene.qsp}
+																																																																																																											>>>
+																																																																																																												[shot]Бах! {this.loud=1;'';}[AUDIO silent_2.7][VIDEO hero_was_killed_by_boss][SOUNDFX sfx_shot]
+																																																																																																													>>>
+																																																																																																														[mark_m98puk97e0y21g7adc4d]{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																															>>>
+																																																																																																																[mark_19ak79h00ok3dk563360]{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																																	>>>
+																																																																																																																		[mark_9502q57bq9n4350997n5]{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																																			>>>
+																																																																																																																				[shot_branches]{if (this.brick_falling) {'[GOTO Mark_Final40]'} else {'[GOTO Mark_Final22]'}}
+																																																																																																																					
+																																																																																																																						[Mark_Final22][FINAL Тебя пристрелил Босс. Отрицательный финал.][MUSIC none]
+																																																																																																																						[Mark_Final40][AUDIO silent_4][VIDEO boss_falls_down]
+																																																																																																																							
+																																																																																																																								[mark_e442x8yr098ssmx1mm7j][FINAL Тебя пристрелил Босс, а на него упал кирпич. Нейтральный финал.][VIDEO dead_boss][MUSIC none]
+																																																																																																			Да пошел ты...
+																																																																																																				[mark_k6gj8q1cw932eb1f95v3][GOTO shot]
+																																																																																																	[GOTO screaming]
+																																																																																																	Промолчу.
+																																																																																																		[mark_xb535ic8pi8930b1gme0][GOTO speech4]
+																																																																																													Достану пистолет.
+																																																																																														[mark_0v176a1a6t2kk64b8tm5][GOTO shot]
+																																																																																											Брось пушку, псих!
+																																																																																												[mark_0j1e3fr36wf5mpd7i3g5]Пригнись.[VIDEO victim_said_boss][AUDIO Duck]
+																																																																																													
+																																																																																														[mark_we5bb09c97c64h25y395][VIDEO victim_lost_mind][AUDIO silent_2]
+																																																																																															
+																																																																																																[mark_h754g8233h604sd5t8fy][FINAL У парня поехала крыша и он застрелился. Отрицательный финал.][IMAGE hero_is_dead][SOUNDFX shot]
+																																																																																									Постой, не делай этого!
+																																																																																										[Mark_Final21][FINAL Бах! Тебя подстрелили со спины. Отрицательный финал.][VIDEO boss_kills_hero_back2][SOUNDFX sfx_shot][MUSIC none]
+																																																																																									Пригнусь.[VIDEO hero_sits_down]
+																																																																																										[mark_65iv3xz05c086e7yt528][BGNDVIDEO hero_sitting_down][ANSWERTIME 20][TIMEEXPIRED shot]
+																																																																																											Отпрыгну в сторону.[VIDEO hero_jumps_from_victim]
+																																																																																												[mark_8ipy6n8q68h3cqu9sjeo][VIDEO boss_kills_victim][AUDIO silent_1][BGNDVIDEO hero_looks_dead_victim_aside][SOUNDFX sfx_shot][ANSWERTIME 20][TIMEEXPIRED hey_smartass]
+																																																																																													Обернусь.[VIDEO hero_turns_to_boss]
+																																																																																														[mark_1d4j3r5jqr575289907c]{script init.qsp}{this.loud=1;'';}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																															
+																																																																																																[mark_b0744qih70fn7msspyf3][GOTO policemen_control_shoot]
+																																																																																									[get_the_gun]Достану пистолет.
+																																																																																										[mark_u55u10hzxvdzp8122591][GOTO Mark_Final21]
+																																																																																							Брошусь на него.
+																																																																																								[mark_tmol64u54wx7kwa1u99h][GOTO Mark_Final21]
+																																																																																							[GOTO get_the_gun]
+																																																																																	Я помогу тебе ...
+																																																																																		[mark_6v471s4n261h56yfn5v8]Помоги мне подняться...[VIDEO victim_sit_said_hero][AUDIO help_me_get_up][BGNDVIDEO victim_sit_looks_loop][ANSWERTIME 20][TIMEEXPIRED Mark_Final21_1]
+																																																																																			Сейчас.
+																																																																																				[Mark_Final21_1][FINAL Бах! Тебя подстрелили со спины. Отрицательный финал.][VIDEO boss_kills_hero_back1][SOUNDFX sfx_shot][MUSIC none]
+																																																																																			[i_call_medic]Лучше не двигайся, я вызову скорую.
+																																																																																				[mark_mqf78j89s43gh258vny9]- Диспетчер! Диспетчер! Срочно нужна скорая![AUDIO DispatcherDispatcher][VIDEO victim_sit_looks_loop][IMAGE radio.png|450;150;2;2;30;1]
+																																																																																					
+																																																																																						[mark_lj4nx6k8cp2uk79t6eiy]Диспетчер: - Ожидайте... ожидайте...ожидайте...[AUDIO WaitWaitWait][VIDEO victim_sit_looks_loop][IMAGE radio.png|450;150;2;2;30;1]
+																																																																																							
+																																																																																								[mark_4gyq34n39hz4f3sc18er]Я умираю... обещай исполнить мою последнюю просьбу...[VIDEO victim_sit_said_hero][AUDIO MakeMyLastWish][BGNDVIDEO victim_sit_looks_loop][ANSWERTIME 20][TIMEEXPIRED Mark_Final21_1]
+																																																																																									Хорошо, исполню
+																																																																																										[mark_5o791tfj96w7ulsj40ne]Переведи денег на яндекс кошелек... https://money.yandex.ru/to/41001220674141[VIDEO victim_sit_said_hero][AUDIO TransferMoneyToYandex]
+																																																																																											Хорошо
+																																																																																												[Mark_Final31]Парень умер. Исполнишь его последнюю просьбу?[VIDEO hero_looks_dead_victim_aside][MUSIC none]
+																																																																																													Да, переведу денег.
+																																																																																														[mark_ez03a28o45fzfb4f40en][GOTO Mark_Final1_1]
+																																																																																													Да и хрен с ним.
+																																																																																														[mark_l7yhyi5on90kb4au9jkz][GOTO Mark_Final21_1]
+																																																																																									Извини, не могу
+																																																																																										[mark_g32iyr946873c7fb0734][GOTO Mark_Final21_1]
+																																																																																	[GOTO i_call_medic]
+																																																																													Ё-моё! Такое только в кино бывает![VIDEO hero_in_camera1][MUSIC none][SOUNDFX InCamera]
+																																																																														[Mark_Final 41][FINAL Улыбнитесь! Вас снимала скрытая камера. Нейтральный финал][BGNDVIDEO hero_in_camera2]
+																																																																									Потому что его сделали козлом отпущения!
+																																																																										[you_lie_policeman]Ты гонишь, мент![VIDEO gangster2_said_hero_gangster1_scared][AUDIO YouLiePoliceman]
+																																																																											
+																																																																												[mark_631m81766y17l28d5lqe][VIDEO gangster2_cutted_hero][AUDIO silent_2.6]
+																																																																													
+																																																																														[Mark_Final29][FINAL Тебя порезал Кирпич. Отрицательный финал.][BGNDVIDEO hero_in_blood][MUSIC none]
+																																																																							Твой брат оказался слабак!
+																																																																								[mark_04xo477b6t7120il8an8][GOTO you_lie_policeman]
+																																																																							[GOTO your_brother_knows_something]
+																																																																					Поверь мне на слово.
+																																																																						[mark_a3f66us68221396mh1ud][GOTO you_lie_policeman]
+																																																																					Да, ведь это я написал рапорт.
+																																																																						[mark_43m940m1k6o71678ka4u]Братан! С каких пор ты веришь мусорам?[VIDEO gangster1_said_gangster2_scared][AUDIO HowLongDoYouBelievePoliceman3]
+																																																																							
+																																																																								[mark_2qusqn1k81bwqck3a4c3]Не мути, я хочу послушать.[VIDEO gangster2_said_gangster1_scared][AUDIO IWannaHear]
+																																																																									
+																																																																										[mark_3e7irlx2dh693sfe39ax]Да ничо он тебе не скажет![VIDEO gangster1_said_agressive][AUDIO HeSaysNothing]
+																																																																											
+																																																																												[mark_i038k9yg19xeos2sorkj][GOTO Mark_Final20]
+																																																																					Конечно.
+																																																																						[mark_t1k4768e2zzu429f1fq8]Говори.[VIDEO gangster2_said_gloomily][AUDIO LetsSay]
+																																																																							
+																																																																								[mark_2388n74kb5x7k372m846]Да смотри не ошибись.[VIDEO gangster1_said_gloomily][AUDIO ButBeRight][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																																									Его вообще не Калган зовут, а Василий.
+																																																																										[mark_eu0e8ne17135a8g9sfwb]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																																											И в школе физрук сделал его дырявым.
+																																																																												[mark_ning492fx178iuk3v0sa]Калган! Калган![VIDEO hero_turns_back_to_driver][AUDIO KalganKalgan]
+																																																																													
+																																																																														[mark_dpa9h64g995quu4z4jm7]Босс спрашивает, это правда?[VIDEO driver_asks_hero][AUDIO BossAsksIsThatTrueth]
+																																																																															
+																																																																																[mark_5kw0dn6w59m6nj0x14hv][AUDIO silent_0.37][VIDEO hero_turns_out_driver]
+																																																																																	
+																																																																																		[mark_gdmi6t323blebxdagxkp][VIDEO gangster1_kills_himself][AUDIO silent_6.24][SOUNDFX sfx_shot3sec]
+																																																																																			
+																																																																																				[hey_smartass]Эй, умник![VIDEO hero_turns_to_boss][AUDIO hey_smartass]
+																																																																																					
+																																																																																						[mark_s76a4rzo0zry9ld6n49u]Твоя очередь.[AUDIO YourTurn][VIDEO boss_said_victim]
+																																																																																							
+																																																																																								[mark_1834501q60vp0j63n96j][VIDEO hero_was_killed_by_boss][AUDIO silent_2.7][SOUNDFX sfx_shot]
+																																																																																									
+																																																																																										[mark_7kv1nn1er21i2vpkg58c][GOTO Mark_Final22]
+																																																																											И в школе он был лохом.
+																																																																												[mark_lh01ts0d8y1890218329]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2]
+																																																																													
+																																																																														[mark_9slz32w4sle7c2690170][GOTO Mark_Final20]
+																																																																									[your_brother_knows_something]Твой брат кое что знал про прокурора.
+																																																																										[mark_r4tav4610g71exge27dz]Калган! Калган![VIDEO hero_turns_back_to_driver][AUDIO KalganKalgan]
+																																																																											
+																																																																												[mark_r95k2xj6o0b14vz9859j]Босс велел не трогать этого мента![VIDEO driver_asks_hero][AUDIO BossSaidDontTakePoliceman]
+																																																																													
+																																																																														[mark_2qy1qvj40bp81j6vxh14]...а сразу валить![VIDEO driver_asks_hero][AUDIO BossSaidKillPoliceman]
+																																																																															
+																																																																																[mark_1jgoxk706j430h47uz8s][AUDIO silent_0.37][VIDEO hero_turns_out_driver]
+																																																																																	
+																																																																																		[Mark_Final20][FINAL Тебя пристрелил Калган. Отрицательный финал.][VIDEO gangster1_kills_hero][SOUNDFX sfx_shot][MUSIC none]
+																																																											Чепушило.
+																																																												[mark_126am61fdtjquab80vb8][GOTO you_lie_policeman]
+																																																											Махмуд.
+																																																												[mark_025732d93zy0160t0n2b][GOTO you_lie_policeman]
+																																																											Не помню.
+																																																												[mark_4937xi37bc23i7a8b61t][GOTO you_lie_policeman]
+																																																									Убив полицейского, ты сразу сядешь, а его отпустят!
+																																																										[mark_1sf78wr58j3yl706b8i2][GOTO do_not_listen_to_him]
+																																																									Погоди! Погоди!
+																																																										[mark_4kwr77885b9tpjlm467g][GOTO you_lie_policeman]
+																																																							[GOTO he_framed_your_brother]
+																																																							У вас шрам над бровью, товарищ майор из первого отдела. Шкура продажная!
+																																																								[mark_p59w1f3lcg3m0d710k1f]Молодец, ты меня раскрыл. Теперь придется начинать все заново. [VIDEO gangster1_said_agressive][AUDIO Reoperation]
+																																																									
+																																																										[Mark_Final36][FINAL Ты сорвал операцию спецслужб по поимке криминального босса. Отрицательный финал.][VIDEO gangster1_kills_gangster2_for_deal][SOUNDFX sfx_shot][MUSIC none]
+																																																			Что ты делал в РОВД?
+																																																				[mark_l20p03r0gz6t7yyxp84j]Дык...эта... в УИИ отмечался.[VIDEO gangster1_said_scared][AUDIO Uii][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																					Что такое УИИ?
+																																																						[mark_cq0z7z95zyou4ejgef1r]Углвно-сплнитлная специя. Ты чо, не в курсях?[VIDEO gangster1_said_scared][AUDIO UiiIs][BGNDVIDEO gangster1_looks_scared_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																							Значит теперь точно на зону потопаешь.
+																																																								[get_this_body_policeman]Слышь, мент, лады, забирай себе этого гундоса, мы уходим.[VIDEO gangster1_said_thug][AUDIO TakeVictimPoliceman]
+																																																									
+																																																										[Mark_Final10][FINAL Вам удалось разойтись по-мирному. Положительный, но не главный финал.][VIDEO gangsters_go_away][MUSIC none]
+																																																							Что? Половину букв проглотил.
+																																																								[mark_9313833nj1zbi24n8wso]Чо??? Это я проглот???[VIDEO gangster1_said_agressive][AUDIO AmICumEater][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																									
+																																																										[do_you_sauce_me]Ты мне тут горбатого не лепи! Щас сам горбатым станешь![VIDEO gangster1_said_agressive][AUDIO humpbacked][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																											>>>[VIDEO gangsters_catch_hero]
+																																																												[mark_w9r65ba99zmpg12q6z6k][GOTO Mark_Final27]
+																																																					УИИ по другому адресу.
+																																																						[use_policeman]Слух, Калган...[VIDEO gangster2_pulls_knife][AUDIO HeyKalgan]
+																																																							
+																																																								[mark_0zqi4rqas0t4z35024k0]Помнишь как ты прошлого мента юзанул?[VIDEO gangster2_said_with_knife][AUDIO DoYouRememberHowKillLastPoliceman]
+																																																									
+																																																										[mark_pt34kf9g03k4no32h60s]Тот мент в больничке очухался. А этого я щас точняк мочкану![VIDEO gangster1_said_gangster2_with_knife][AUDIO IllKilPoliceman][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																											Спокойно, спокойно, я ухожу...[VIDEO gangster2_removed_knife]
+																																																												[Mark_Final24][FINAL Ты оказался трусом. Отрицательный финал.][VIDEO go_away_from_gangsters][MUSIC none]
+																																																												[Mark_Final24_1][FINAL Ты оказался трусом. Отрицательный финал.][IMAGE radio.png|450;150;2;2;30;1][VIDEO go_away_from_gangsters][MUSIC none]
+																																																											Только попробуй, сядешь надолго!
+																																																												[policeman_is_bored]Слышь, братан, достал он меня...[VIDEO gangster2_said_with_knife][AUDIO HeTiredMe][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																													>>>[VIDEO gangsters_catch_hero]
+																																																														[Mark_Final27][FINAL Тебя избили и порезали. Отрицательный финал.][BGNDVIDEO hero_in_blood][MUSIC none]
+																																																	Прокурор тоже мент.[VIDEO gangster2_pulls_knife]
+																																																		[mark_28uo0f358bdh59xe7ruh][GOTO policeman_is_bored]
+																																															А может ты и сам мент?
+																																																[mark_3f3vb2o08e2ch08588n8][GOTO do_you_sauce_me]
+																																													Пройдем в отделение, пообщаемся.
+																																														[we_will_be_free]Да нас прям сразу же отпустят! Веришь, нет?[VIDEO gangster1_said_thug][AUDIO WeWillBeFree][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																															Нет.[VIDEO gangster1_takes_mobile]
+																																																[mark_3x0r6di7wu4z2469aop4]Алё? Босс, тут какой то мусорок дело делать мешает...[VIDEO gangster1_mobile][AUDIO HalloBoss][BGNDVIDEO gangster1_mobile][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																	>>>[VIDEO gangster1_hides_mobile]
+																																																		[mark_55291m33puvdu14i6ifo]Диспетчер: Около дома №95 голый мужчина совершает развратные действия сам с собой. Немедленно разберитесь![VIDEO gangsters_look_scoff_loop][IMAGE radio.png|470;150;2;2;30;1][AUDIO Building95]
+																																																			
+																																																				[Mark_Final30][FINAL Тебя поручили другое задание. Отрицательный финал.][IMAGE radio.png|450;150;2;2;30;1][VIDEO go_away_from_gangsters][MUSIC none]
+																																															Года через три вас отпустят.
+																																																[mark_q1yv237l14h29i2ejkwy]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2]
+																																																	
+																																																		[mark_79gq3lls863fenj5p3c2][GOTO use_policeman]
+																																											Не рассказывай мне сказки.
+																																												[mark_hz6mv25a52cwv4awqk8p][GOTO we_will_be_free]
+																																											Прокурор с бандитами дел не имеет.
+																																												[mark_64spvzei41666pvl3389](у Калгана звонит мобила)[AUDIO crime_peterburg][VIDEO gangsters_look_thug_loop]
+																																													
+																																														[mark_v6esu5564058w3682812][AUDIO silent_1][VIDEO gangster1_takes_mobile]
+																																															
+																																																[mark_i73x6x47syzti64i79qb]Ангелина: - Алло, Калганчик? У меня тут хата пустует, приезжай...[VIDEO gangster1_mobile][AUDIO Angelina][VIDEO gangster1_mobile]
+																																																	
+																																																		[mark_86o63l6eer08a3t70s2f][AUDIO silent_1][VIDEO gangster1_hides_mobile]
+																																																			
+																																																				[mark_642j5g3x13e30735l6ni][GOTO get_this_body_policeman]
+																																									Мне все равно.
+																																										[mark_8ggyn3h0ped99uz0h08u][GOTO we_will_be_free]
+																																							Пройдемте в отделение.
+																																								[mark_6xl079l14o2d66c515x0][GOTO looser]
+																																							У меня сейчас нет с собой постановления.
+																																								[mark_p6m1px82n6z60yxy6k8k]Так иди, раздобудь сперва![VIDEO gangster1_said_agressive][AUDIO FirstGiveMeNotice][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																									Я так просто не отстану.
+																																										[mark_d7f6c1h8j86e48so007q][GOTO you_lie_policeman]
+																																									Ждите здесь, я скоро вернусь!
+																																										[Mark_Final28][FINAL Тебе больше нечего предъявить, пришлось уйти. Отрицательный финал.][VIDEO go_away_from_gangsters][MUSIC none]
+																																							Я вас на месте преступления застал!
+																																								[Batun_helped_dude]Этот кент шел, чебурахнулся. Кирпич ему встрепенуться помог.[VIDEO gangster1_said_scoff][AUDIO BrickHelped][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																									Я собственными глазами все видел.
+																																										[mark_49a2n0g18g6pm0xgc3tk]Слышь, спроси у кента сам.[VIDEO gangster1_said_scoff][AUDIO AskFromKent][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																											[hey_man_is_it_true]Эй, парень, это правда?
+																																												[mark_zm8zvnpwv8x352nyn048]Эээ... ну, даа...[VIDEO victim_said_yes][AUDIO EhSoYes][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																													Я не верю.
+																																														[looser]Ну чо, нечего предъявить?[VIDEO gangster1_said_agressive][AUDIO NothingToSay][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																															>>>[VIDEO gangster2_pulls_knife]
+																																																[mark_6b106r05tb7909146812]Да ты голимый шабашник! А шабашников у себя на районе мы караем.[VIDEO gangster2_said_with_knife][AUDIO YouFuckingScum][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																																	>>>[VIDEO gangsters_catch_hero]
+																																																		[mark_7yq45w39q1v654b610uk][GOTO Mark_Final27]
+																																													Ему надо в больницу. Я отведу.
+																																														[mark_4iq5r8kv0d6y9lqooo4z]Тебе щас самому больница понадобится.[VIDEO gangster1_said_agressive][AUDIO Hospital]
+																																															
+																																																[mark_7n73k5gd57h87414536k][GOTO use_policeman]
+																																									[GOTO hey_man_is_it_true]
+																																					[GOTO health_injury]
+																																			Ты задержан.
+																																				[mark_5cporqv26fi8b8x926v8][GOTO show_ruling]
+																																	Задержание до выяснения личности.
+																																		[i_am_kalgan]Я - Калган. Ну чо, выяснил?[VIDEO gangster1_said_scoff][AUDIO IamKalgan][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																			Да, ты задержан.
+																																				[mark_0ue4o9fek4h875rx60j7]За чо?[VIDEO gangster1_said_thug][AUDIO ForWhat][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																					Идем. В отделении все узнаешь.
+																																						[mark_lbluxy3v20ed62fn9rbk][GOTO gangstar_roof]
+																																					[health_injury]Причинение вреда здоровью.
+																																						[mark_18825q9cnj605mpc98i4][GOTO Batun_helped_dude]
+																																			Где проживаешь?
+																																				[mark_ep97w44cj6bfgzh5g6p4]Здесь на районе.[VIDEO gangster1_said_thug][AUDIO HereLive][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																					Назови точный адрес.[VIDEO gangster2_pulls_knife]
+																																						[mark_m7361e841025sh96k20g][GOTO policeman_is_bored]
+																																					Ранее судим?
+																																						[mark_339wb0ph13g48ii4205t]Ты сам как думаешь?[VIDEO gangster1_said_thug][AUDIO WhatDoYouThink][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																							Думаю да, и еще будешь.
+																																								[mark_5zu3x3jag373t06v4c1c][GOTO you_lie_policeman]
+																																							Думаю ты сейчас по УИИ отмечаешься.
+																																								[mark_94o0f7vfm331po0903o3][GOTO get_this_body_policeman]
+																																							Тюрьма твой дом родной.
+																																								[mark_o0d977jxi6p96g51jt1i]Верняк! Мне терять нечего.[VIDEO gangster1_said_thug][AUDIO IHaveNothingToLose]
+																																									
+																																										[mark_55899w10891fw6jy64nc][GOTO use_policeman]
+																																	За рукоприкладство.
+																																		[mark_0nty39mhl302l138k25h]Чо ты лепишь? Какое рукоприкладство? Мы его ногами пинали![VIDEO gangster1_said_scoff][AUDIO WeKickHim]
+																																			
+																																				[mark_8f06uv6l0n8r056nmgwx][GOTO use_policeman]
+																																	За совершение преступления.
+																																		[mark_78mq3f96f108g3jxi4q7][GOTO what_crime]
+																															Гопачев Эдуард?
+																																[mark_x4ec297370l8874n8xjq]Помогите, помогите! У меня машину украли![VIDEO hero_turns_back_to_driver][AUDIO HelpHelp][BGNDVIDEO driver_waits][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																	Обратитесь в ГИБДД.
+																																		[mark_t6q937436u0n2a8e52o3]Такая красная машина![VIDEO driver_asks_hero][AUDIO RedCar][BGNDVIDEO driver_waits][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																			[wrong_parking]Которая на пешеходном переходе стояла?
+																																				[mark_032f5vmd6rj06s41q306]Да! Да! На пешеходном! Я всего на пять минут отошел![VIDEO driver_asks_hero][AUDIO DriverWasLate5min][BGNDVIDEO driver_waits][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																					Так ее эвакуатор увез. Парковка в неположенном месте.
+																																						[mark_h186li1x21z6n6m2a1e9]Ну слава богу! А я перепугался... Спасибо! Я побежал.[VIDEO driver_asks_hero][AUDIO OkIScaredIGo][BGNDVIDEO driver_waits][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																							Пожалуйста.[VIDEO hero_turns_out_driver]
+																																								[time_expired, Mark_Final34][FINAL Тебе оставили труп жертвы. Отрицательный финал.][IMAGE hero_is_dead.png][MUSIC none]
+																																	[GOTO wrong_parking]
+																													[GOTO go_to_police_department]
+																													Тогда я вправе задержать вас до выяснения личности.
+																														[mark_r10qs6yf9av8xfjc1s9o]Ну давай, задерживай![VIDEO gangster1_said_scoff][AUDIO GoAheadArresting][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																															Руки за голову![VIDEO gangsters_catch_hero]
+																																[mark_uo0u6or64x4s2h6g21y2][GOTO Mark_Final27]
+																															[GOTO go_to_police_department]
+																															Оказывать сопротивление бесполезно.
+																																[mark_30cdlvfid7b6b7e21w51]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2]
+																																	
+																																		[mark_6rmit37959jmc9dxdfb9][GOTO you_lie_policeman]
+																											За ваш поступок предусмотрена уголовная ответственность.
+																												[mark_p178a19187fwf26da62g]Меньжануть нас хочешь?[VIDEO gangster1_said_thug][AUDIO WannaScareUs][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																													За ваше преступление прямая дорога на зону.
+																														[mark_ge44v36837z79zi3z51m][GOTO what_crime]
+																													[GOTO go_to_police_department]
+																													Кто-нибудь из вас имеет непогашенную судимость?
+																														[mark_a5ubj66nz8esg1oaf4l9]Никто. С хера ты так решил?[VIDEO gangster1_said_thug][AUDIO WhyDoYouThinkSo][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																															Сейчас мы это выясним. Тебя как зовут?
+																																[mark_zbi9q652kv97988jjdkh][GOTO i_am_kalgan]
+																															Думаешь я тебе поверил?
+																																[mark_y07ft5p1426kuc576pl1][GOTO use_policeman]
+																									На, гляди...
+																										[Mark_Final26][FINAL Бандит порвал твое удостоверение, испортил тебе карьеру. Отрицательный финал.][VIDEO gangster1_cutted_docs][MUSIC none]
+																									Твои проблемы. Лечи зрение.[VIDEO hero_hides_docs]
+																										[mark_026pm61pvfb33is81bkf][GOTO do_you_sauce_me]
+																							Я не оборотень.
+																								[mark_rm76c9k80td7ae993z5u][GOTO and_what]
+																					А кое что другое тебе не показать?
+																						[mark_o7zz8c719w2ro7f430b1][GOTO looser]
+																					[GOTO show_document]
+																			Хорошо, поговорим по-мужски...
+																				[mark_2b0b54may15366w66by6]А ты не мужик, ты мусор! Гыгыгы![VIDEO gangster2_said_scoff][AUDIO YouAreShit][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																					Кому мусор, а кому мусорщик.
+																						[mark_23p3xc06dc66wxw4095d]Давай, шкандыбай отсюда![VIDEO gangster2_said_agressive][AUDIO GoAwayFromHere][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																							Вы нарушаете закон.
+																								[mark_n9n7mg6btd6f09f36til][GOTO and_what]
+																							[leave_him_along]Отошли от парня, живо![VIDEO gangster2_pulls_knife]
+																								[go_away_policemen]Пшел вон![VIDEO gangster2_said_with_knife][AUDIO GoOut][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																									[to_PD]Ты у меня сейчас в обезъянник поедешь.
+																										[mark_598ssvoglzkavc2v5cj2]Я те щас все филе потыкаю![VIDEO gangster2_said_with_knife][AUDIO IllCutYourBody][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																											[ok_ok_easy]Ладно, ладно, успокойтесь...
+																												[mark_7o30779wff4ju7i9w62k]Почапал отсюда, живо![VIDEO gangster2_said_with_knife][AUDIO GoOutFromHereFaster][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																													Хорошо, я ухожу.[VIDEO gangster2_removed_knife]
+																														[mark_r9657uq779p347zm051n][GOTO Mark_Final24]
+																													[get_gun]Достану пистолет.[VIDEO hero_pulls_gun]
+																														[mark_c19bg8d3t3579ne9n3b7]Смотри! У него волына![VIDEO gangster2_said_look_gun][AUDIO HeyLookHeHasGun][BGNDVIDEO hero_aims_target_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																															Не заставляйте меня применять оружие.
+																																[have_you_bullets]У тебя маслята то есть?[VIDEO gangster2_said_look_gun][AUDIO DoYouHaveBullets][BGNDVIDEO hero_aims_target_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																	[go_away_gangsters]А ну свалили отсюда живо!
+																																		[mark_178ys3nevwga0tw4q96w][GOTO get_this_body_policeman]
+																																	Не волнуйся, есть.
+																																		[mark_zhztztap5lykb91s8h30]Стрельни в воздух, проверим...[VIDEO gangster2_said_look_gun][AUDIO ShotInAir][BGNDVIDEO hero_aims_target_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																			Нет. Пулю жалко.
+																																				[mark_1h942bfwybhwkan7juo1]Если щас не выстрелишь, я подойду и тебя порежу.[VIDEO gangster2_said_look_gun][AUDIO IfYouDoesNotShoot][BGNDVIDEO hero_aims_target_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																					Я выстрелю.
+																																						[mark_l8cp09qqi7915pgdx6k6]Давай, стреляй.[VIDEO gangster2_said_look_gun][AUDIO LetsShoot][BGNDVIDEO hero_aims_target_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																							[training_shot]Сделаю предупредительный в воздух.
+																																								[mark_3ex013451c3p1wm3a56y]Ну ты юморист! Забыл, что в РОВД уже давно напряг с патронами?[BGNDVIDEO hero_warning_shot][BGNDAUDIO ClipOut][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																									>>>[VIDEO gangsters_catch_hero]
+																																										[mark_w218pwi553cl3t5dmk02][GOTO Mark_Final27]
+																																					Только попробуй!
+																																						[mark_qlj09s399ty1431y1m65][GOTO get_this_body_policeman]
+																																			[GOTO training_shot]
+																															[GOTO go_away_gangsters]
+																															[GOTO training_shot]
+																													[get_baton]Достану дубинку.[VIDEO hero_pulls_broken_baton][SOUNDFX baton_cracked]
+																														[mark_ba0i6l4i13dy375we0hc]Дубинка сломалась, у нее истек срок годности...[BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																															>>>[VIDEO gangsters_catch_hero]
+																																[Mark_Final23][FINAL Тебя избили и засунули в жопу обломки дубинки. Отрицательный финал][VIDEO hero_baton_in_ass][MUSIC none]
+																													[call_swat_by_radio]Вызову по рации подкрепление.
+																														[mark_283y4dc24001395kd1c9]Диспетчер: "Все патрули заняты."[VIDEO gangster2_looks_with_knife][IMAGE radio.png|400;150;2;2;30;1][AUDIO AllPatrolsAreBusy][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																															Пришлите хоть кого-нибудь!
+																																[mark_9xp202i8m7y5n40hdq67]Диспетчер: "Хорошо, я попробую поискать."[VIDEO gangster2_looks_with_knife][IMAGE radio.png|450;150;2;2;30;1][AUDIO OkIamLooking][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																	Ищите быстрее, меня сейчас убивать будут!
+																																		[mark_u3k6x6xeb0k607qysk27]Диспетчер: "Оставьте побольше кровавых следов, судмедэкспертам будет проще работать."[VIDEO gangster2_looks_with_knife][IMAGE radio.png|500;150;2;2;30;1][AUDIO MoreBloodingSpots][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																			[ok_do_it_by_myself]Ладно, разберусь сам.[VIDEO gangsters_catch_hero]
+																																				[Mark_Final25][FINAL Тебя избили и засунули в жопу рацию. Отрицательный финал.][VIDEO hero_radio_in_ass][MUSIC none]
+																																	[GOTO ok_do_it_by_myself]
+																															[GOTO ok_do_it_by_myself]
+																											[GOTO get_gun]
+																											Оба к стене, быстро![VIDEO gangsters_catch_hero]
+																												[mark_wx3i524m33oc859q19s2][GOTO Mark_Final27]
+																											[GOTO get_baton]
+																									[i_will_call_swat]Я сейчас спецназ вызову.
+																										[mark_w43er9sz69g8ky7ui2f9]Ну давай, рискни.[VIDEO gangster2_said_with_knife][AUDIO AreYouRisky][BGNDVIDEO gangster2_looks_with_knife][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																											[GOTO call_swat_by_radio]
+																											[GOTO get_baton]
+																											[GOTO ok_ok_easy]
+																									[GOTO get_gun]
+																									[GOTO ok_ok_easy]
+																							[GOTO to_PD]
+																							[GOTO i_will_call_swat]
+																					[GOTO to_PD]
+																					За оскорбление при исполнении до 15 суток ареста.
+																						[mark_d997owc7xr8t2de75946][GOTO and_what]
+																	[GOTO get_gun]
+																	[GOTO get_baton]
+																	[GOTO call_swat_by_radio]
+															[GOTO leave_him_along]
+															[GOTO your_rights]
+													[you_are_arrested]А ну руки за голову! Вы арестованы!
+														[mark_37ip6lt5itg46j0oz96g]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2]
+															
+																[mark_215th84qodx461xo1hyj]Прям аще меньжанул, ментуха грозный![VIDEO gangster1_said_scoff][AUDIO YouScaredUs][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																	[your_rights]Вы имеете право хранить молчание.
+																		[mark_0i78j7p75tq24wbra9zn]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																			Всё, что вы скажете, может быть использовано против вас!
+																				[mark_741e455sy5l347b606ft][GOTO nu_girl,bald_fuck,demo_explosions]
+																					
+																						[nu_girl]Голая баба![VIDEO gangster1_said_scoff][AUDIO NudeWoman][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																							Что, голая баба?
+																								[mark_z113bp0hz6715us8d6af]Используй против меня голую бабу![VIDEO gangster1_said_scoff][AUDIO UseNudeWoman]
+																									
+																										[mark_csl8l9xauq0ccr6i934n]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																											[you_named_me]Это ты меня так назвал?[VIDEO gangster2_pulls_knife]
+																												[mark_8s1t46g6ek541im34hdw][GOTO go_away_policemen]
+																											[GOTO leave_him_along]
+																							[GOTO you_named_me]
+																						[bald_fuck]Лысый хрен.[VIDEO gangster1_said_scoff][AUDIO Dick][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																							Что, лысый хрен?
+																								[mark_rs5s08ag023opzo644r0]Используй против меня лысый хрен![VIDEO gangster1_said_scoff][AUDIO UseDick]
+																									
+																										[mark_ib4d62279hy1g90te41l]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																											[GOTO leave_him_along]
+																											[GOTO call_swat_by_radio]
+																							[GOTO you_named_me]
+																						[demo_explosions]Беру на себя ответственность за демографические взрывы![VIDEO gangster1_said_scoff][AUDIO TakeResponsibility]
+																							
+																								[mark_6ybvlqwin0fa6ch1p68c]Ыыы... ыыы... ыыы...[VIDEO gangsters_look_scoff_loop][AUDIO hehehe2][BGNDVIDEO gangsters_look_scoff_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																									[GOTO give_me_your_docs]
+																									[GOTO leave_him_along]
+																	[GOTO leave_him_along]
+																	[GOTO i_will_call_swat]
+													[GOTO i_will_call_swat]
+													Все секреты, секреты... 
+														[mark_9r7ag94oeo1jmc30800u][GOTO Mark_Final24]
+											[GOTO leave_him_along]
+									[GOTO leave_him_along]
+									Давайте я попробую.
+										[mark_enh3jf8s1un745ebrf88]Бабосов нахаляву срубить захотел? Проходи мимо![VIDEO gangster1_said_thug][AUDIO WannaMoney][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+											Подойду, пну должника.[VIDEO hero_kicks_victim_cuts_hero]
+												[Mark_Final33][FINAL Тебя пырнула жертва. Отрицательный финал.][MUSIC none]
+											Нет, по доброте душевной.
+												[mark_9668frz24yl0y1pmajk1][GOTO what_do_you_want]
+											[GOTO you_are_arrested]
+							Я не могу ждать.[VIDEO gangsters_are_turning]
+								[mark_83rfsd1y7vo3r1hz8015][GOTO hey_policemen_passing]
+							Cвяжусь по рации с диспетчером.[VIDEO gangsters_are_turning][IMAGE radio.png|450;150;2;2;30;1][SOUNDFX radio_noise]
+								[call_dispatcher]Диспетчер! Диспетчер! В подворотне драка![VIDEO gangsters_look_agressive_loop][AUDIO DispatcherThereIsACrime][IMAGE radio.png|400;150;2;2;30;1][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+									Помощи не надо! Убегу сам!
+										[mark_21o5640u3u1g1213398q][GOTO Mark_Final24_1]
+									Прошу прислать подкрепление![VIDEO gangsters_catch_hero]
+										[mark_zwcjrbbzv5dj5u18n3y0][GOTO Mark_Final27]
+					Эй, вы что там делаете?
+						[mark_l9t8cqx2hv64b8j2q31k][GOTO hey_policemen_passing]
+					Никому не двигаться! Полиция!
+						[mark_p06lq33s87p3mla087f2]У кого там здоровья дохрена?[VIDEO gangster1_said_gloomily][AUDIO WhoHasMoreHealth][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+							[GOTO I_am_new_russian_policeman]
+							Я сказал не двигаться!
+								[mark_57279jiokkccz4q6243j]Кому ты сказал? Да я лохов типа тебя в соседней подворотне пачками бомблю.[VIDEO gangster2_said_agressive][AUDIO WhomDidYouSayIllKillYou][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+									Я не лох, я полицейский.
+										[mark_g1790k04who83z530k3f][GOTO go_away_policemen]
+									Лицом на землю, быстро! Стреляю без предупреждения!
+										[mark_1u60b0cjm961593h8yg5]Эээ, братуха, постой! Мы тут кино снимаем...[VIDEO gangster2_said_look_gun][AUDIO HeyBroStopWeMakeFilm][BGNDVIDEO hero_aims_target_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+											Делай, как я сказал!
+												[mark_u1sz4b616dbj336o0k4x][GOTO have_you_bullets]
+											Какое еще кино?
+												[mark_4b16yzn1z51jojrpqu9m]Я кажется в штаны наделал...[VIDEO gangster2_goes_aaa][AUDIO IMadeAShit]
+													
+														[Mark_Final37][FINAL Ты напугал актеров и сорвал съемки. Отрицательный финал.][MUSIC none]
+							Вызову подкрепление.
+								[mark_601knfj16di9o18673v5][GOTO call_dispatcher]
+	Достать лопатник.
+		[mark_dbjk5w775082s96sjy3n][GOTO Mark_Final1_1]
