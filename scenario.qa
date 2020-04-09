@@ -1,4 +1,4 @@
-[poster_label]Sim-Gop 3. Полицейская история.[BGNDVIDEO poster][BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]
+[START]Sim-Gop 3. Полицейская история.[BGNDVIDEO poster][BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]{this.lang='ru';''}{script initSystem}
 	[play_game]START THE GAME / Начать игру.
 		[mark_u4t9ekyx6kycu0y3oscl][VIDEO none][IMAGE black.jpg]Полицейский! Совершается преступление![AUDIO AttentionCrimeInProgress]
 			
@@ -74,9 +74,9 @@
 																																																																									Потому что стукачей не садят!
 																																																																										[mark_f2tng8d1zkjq37hcsdt5]- Ах ты падла! Получай за брата!!! - Это был не я! Получи, дебил!!!![VIDEO gangster1_gangster2_kills][AUDIO silent_4.1]
 																																																																											
-																																																																												[EPISODE4][BGNDVIDEO battlefield][MUSIC Happened]
+																																																																												[EPISODE4]...[BGNDVIDEO battlefield][MUSIC Happened]
 																																																																													Эй, парень, ты как?[VIDEO victim_lean_wall]
-																																																																														[mark_o27xq730109yrm91aedp][AUDIO silent_1.9][VIDEO hero_comes_to_victim]
+																																																																														[mark_o27xq730109yrm91aedp]...[AUDIO silent_1.9][VIDEO hero_comes_to_victim]
 																																																																															
 																																																																																[mark_662810m030u54810v84m]Могло бы... быть и хуже...[VIDEO victim_sit_said_hero][AUDIO MayBeWorse][BGNDVIDEO victim_sit_looks_loop][ANSWERTIME 20][TIMEEXPIRED Mark_Final21_1]
 																																																																																	Где то у меня был наркоманский жгут, остановить кровь...[VIDEO hero_shows_identikit]
@@ -84,11 +84,11 @@
 																																																																																			
 																																																																																				[mark_08p6p06p45w18e57z5tm]Что за черт??? Это же ты![VIDEO hero_looks_identikit][AUDIO ThatsYou][ANSWERTIME 20][TIMEEXPIRED Mark_Final21]
 																																																																																					>>>[VIDEO hero_hides_identikit]
-																																																																																						[mark_9em4am1cf43x4lx55345][BGNDVIDEO victim_aims_hero][ANSWERTIME 20][TIMEEXPIRED Mark_Final21]
+																																																																																						[mark_9em4am1cf43x4lx55345]...[BGNDVIDEO victim_aims_hero][ANSWERTIME 20][TIMEEXPIRED Mark_Final21]
 																																																																																							Я же тебе жизнь спас!
 																																																																																								[mark_9wad6603118t2818sjfm]Пригнись.[VIDEO victim_aims_hero_and_said][AUDIO Duck][BGNDVIDEO victim_aims_hero][ANSWERTIME 20][TIMEEXPIRED shot]
 																																																																																									Отпрыгну в сторону.[VIDEO hero_jumps_from_victim]
-																																																																																										[mark_h1z3oy7i14a01i8w5226][BGNDVIDEO hero_looks_victim_aimed][ANSWERTIME 20][TIMEEXPIRED hey_smartass]
+																																																																																										[mark_h1z3oy7i14a01i8w5226]...[BGNDVIDEO hero_looks_victim_aimed][ANSWERTIME 20][TIMEEXPIRED hey_smartass]
 																																																																																											Обернусь.[VIDEO hero_turns_to_boss]
 																																																																																												[EPISODE5]{script init.qsp}Ну здравствуй, братишка! Бросай пушку, ты и стрелять то не умеешь...{script cat_thinks.qsp}{script brick_thinks.qsp}[AUDIO HelloBroDropGun][MUSIC poster]{script show_final_scene.qsp}
 																																																																																													Замру.
@@ -116,13 +116,28 @@
 																																																																																																																	>>>[VIDEO boss_falls_down]
 																																																																																																																		[Mark_Final1]Поздравления! Ты убил криминального Босса и всех бандитов! Главный финал![AUDIO silent_0.208][VIDEO dead_boss]
 																																																																																																																			Смотреть финальные титры.
-																																																																																																																				[EPISODE6]Главный положительный финал! Понравилось? Подкинь деньжат на следующую часть https://money.yandex.ru/to/41001220674141[MUSIC ThemeFinal][BGNDVIDEO titles][AMBIENT none]
+																																																																																																																				[EPISODE6]Главный положительный финал! Понравилось? Подкинь деньжат на следующую часть![MUSIC ThemeFinal][BGNDVIDEO titles][AMBIENT none]
 																																																																																																																					Не дам денег.
 																																																																																																																						[mark_7l100t75671nv41uxjhl]Гони бабло! Или умри... Гони бабло! Или умри... Гони бабло! Или умри...[BGNDVIDEO boss_said_player][BGNDAUDIO GiveMoneyOrDie]
-																																																																																																																							Ладно, ладно, дам бабло!
-																																																																																																																								[Mark_Final1_1]https://money.yandex.ru/to/41001220674141
-																																																																																																																							Да пошёл ты!
-																																																																																																																								[Mark_Final39][FINAL Тебя всё-таки пристрелил Босс. Отрицательный финал.][VIDEO boss_kills_player][SOUNDFX sfx_shot]
+																																																																																																																							[donate]Ладно, ладно, дам бабло!
+																																																																																																																								[Mark_Final1_1]{this.productId = "com.kri_games.sg3.coin1";'';}{script getPayment}
+																																																																																																																									
+																																																																																																																										[wait]...[VIDEO boss_said_player][AUDIO silent_2]
+																																																																																																																											
+																																																																																																																												[mark_m3t1qf7plkan74atf750]{script checkPayment}
+																																																																																																																													
+																																																																																																																														[payment_success]...[IMAGE episodes.jpg][PURCHASE cheats]
+																																																																																																																															
+																																																																																																																																[mark_48970q2q5xp3i3q84z33]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
+																																																																																																																																	>>>
+																																																																																																																																		[mark_7g7o9fk639gwr7a9gm79]Поздравления! 100% прохождение игры! Ты лучший![AUDIO silent_0.208][VIDEO dead_boss]
+																																																																																																																																			В начало.
+																																																																																																																																				[mark_p3r56ox4bmgf8pj65p2c][GOTO START]
+																																																																																																																														[payment_fail]Что то не так, попробуй еще раз.[BGNDVIDEO boss_said_player][BGNDAUDIO GiveMoneyOrDie]
+																																																																																																																															[GOTO donate]
+																																																																																																																															[fuck_boss]Да пошёл ты!
+																																																																																																																																[Mark_Final39][FINAL Тебя всё-таки пристрелил Босс. Отрицательный финал.][VIDEO boss_kills_player][SOUNDFX sfx_shot]
+																																																																																																																							[GOTO fuck_boss]
 																																																																																																																					Отправлю деньжат.
 																																																																																																																						[mark_090r4w84xoif45q17u1n][GOTO Mark_Final1_1]
 																																																																																																							Промолчу.
@@ -132,13 +147,13 @@
 																																																																																																											>>>
 																																																																																																												[shot]Бах! {this.loud=1;'';}[AUDIO silent_2.7][VIDEO hero_was_killed_by_boss][SOUNDFX sfx_shot]
 																																																																																																													>>>
-																																																																																																														[mark_m98puk97e0y21g7adc4d]{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																														[mark_m98puk97e0y21g7adc4d]...{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
 																																																																																																															>>>
-																																																																																																																[mark_19ak79h00ok3dk563360]{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																																[mark_19ak79h00ok3dk563360]...{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
 																																																																																																																	>>>
-																																																																																																																		[mark_9502q57bq9n4350997n5]{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
+																																																																																																																		[mark_9502q57bq9n4350997n5]...{if (this.cat_pos < 2) {"[GOTO shot_branches]"}}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
 																																																																																																																			>>>
-																																																																																																																				[shot_branches]{if (this.brick_falling) {'[GOTO Mark_Final40]'} else {'[GOTO Mark_Final22]'}}
+																																																																																																																				[shot_branches]...{if (this.brick_falling) {'[GOTO Mark_Final40]'} else {'[GOTO Mark_Final22]'}}
 																																																																																																																					
 																																																																																																																						[Mark_Final22][FINAL Тебя пристрелил Босс. Отрицательный финал.][MUSIC none]
 																																																																																																																						[Mark_Final40][AUDIO silent_4][VIDEO boss_falls_down]
@@ -154,15 +169,15 @@
 																																																																																											Брось пушку, псих!
 																																																																																												[mark_0j1e3fr36wf5mpd7i3g5]Пригнись.[VIDEO victim_said_boss][AUDIO Duck]
 																																																																																													
-																																																																																														[mark_we5bb09c97c64h25y395][VIDEO victim_lost_mind][AUDIO silent_2]
+																																																																																														[mark_we5bb09c97c64h25y395]...[VIDEO victim_lost_mind][AUDIO silent_2]
 																																																																																															
 																																																																																																[mark_h754g8233h604sd5t8fy][FINAL У парня поехала крыша и он застрелился. Отрицательный финал.][IMAGE hero_is_dead][SOUNDFX shot]
 																																																																																									Постой, не делай этого!
 																																																																																										[Mark_Final21][FINAL Бах! Тебя подстрелили со спины. Отрицательный финал.][VIDEO boss_kills_hero_back2][SOUNDFX sfx_shot][MUSIC none]
 																																																																																									Пригнусь.[VIDEO hero_sits_down]
-																																																																																										[mark_65iv3xz05c086e7yt528][BGNDVIDEO hero_sitting_down][ANSWERTIME 20][TIMEEXPIRED shot]
+																																																																																										[mark_65iv3xz05c086e7yt528]...[BGNDVIDEO hero_sitting_down][ANSWERTIME 20][TIMEEXPIRED shot]
 																																																																																											Отпрыгну в сторону.[VIDEO hero_jumps_from_victim]
-																																																																																												[mark_8ipy6n8q68h3cqu9sjeo][VIDEO boss_kills_victim][AUDIO silent_1][BGNDVIDEO hero_looks_dead_victim_aside][SOUNDFX sfx_shot][ANSWERTIME 20][TIMEEXPIRED hey_smartass]
+																																																																																												[mark_8ipy6n8q68h3cqu9sjeo]...[VIDEO boss_kills_victim][AUDIO silent_1][BGNDVIDEO hero_looks_dead_victim_aside][SOUNDFX sfx_shot][ANSWERTIME 20][TIMEEXPIRED hey_smartass]
 																																																																																													Обернусь.[VIDEO hero_turns_to_boss]
 																																																																																														[mark_1d4j3r5jqr575289907c]{script init.qsp}{this.loud=1;'';}{script cat_thinks.qsp}{script brick_thinks.qsp}{script show_final_scene.qsp}
 																																																																																															
@@ -561,5 +576,17 @@
 														[Mark_Final37][FINAL Ты напугал актеров и сорвал съемки. Отрицательный финал.][MUSIC none]
 							Вызову подкрепление.
 								[mark_601knfj16di9o18673v5][GOTO call_dispatcher]
-	Достать лопатник.
-		[mark_dbjk5w775082s96sjy3n][GOTO Mark_Final1_1]
+	[buy_episodes]Эпизоды игры.
+		[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.sg3.episodes";'';}{script getPayment}
+			
+				[wait2]Добавь себе возможность перехода по эпизодам игры с помощью специальной кнопки![IMAGE episodes.jpg][AUDIO silent_3]
+					
+						[mark_7u249b2lf7c472494fvi]{script checkPayment2}
+							
+								[payment_success2]...[IMAGE episodes.jpg][PURCHASE cheats]
+									
+										[mark_lo9fb6iz5619s1v1w24v]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
+											>>>
+												[mark_790313417a53d817ku7r][GOTO START]
+								[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg]
+									[GOTO buy_episodes]
