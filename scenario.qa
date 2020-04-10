@@ -2,7 +2,7 @@
 	[play_game]START THE GAME / Начать игру.
 		[mark_u4t9ekyx6kycu0y3oscl][VIDEO none][IMAGE black.jpg]Полицейский! Совершается преступление![AUDIO AttentionCrimeInProgress]
 			
-				[GAME_SAVEPOINT,EPISODE1]Полицейский! Совершается преступление![VIDEO gangsters_are_turning][AUDIO silent_2][BGNDVIDEO gangsters_look_gloomily_loop][AMBIENT AmbientStreet][MUSIC Meeting][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+				[GAME_SAVEPOINT]Полицейский! Совершается преступление![VIDEO gangsters_are_turning][AUDIO silent_2][BGNDVIDEO gangsters_look_gloomily_loop][AMBIENT AmbientStreet][MUSIC Meeting][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 					Ребята, закурить не найдется?
 						[mark_170fr6wre6n1sk5h9geo]Подожди пять сек, сейчас кента заколбасим и покурим.[AUDIO Wait5secKentBeat][VIDEO gangster2_said_gloomily][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 							За что вы его?[VIDEO gangsters_are_turning]
@@ -30,7 +30,7 @@
 																													Тогда придется пройти в отделение.
 																														[mark_3d77z78t9t24se4y0xjs]Кореш мой также в ментовку загремел. И щас там работает![VIDEO gangster1_said_thug][AUDIO HomyWorksInPolice][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 																															[go_to_police_department]Пройдемте в отделение.
-																																[EPISODE2]Слышь, на каком основании?[VIDEO gangster1_said_thug][AUDIO HeyWhatReason][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired][MUSIC Graters]
+																																[EPISODE1]Слышь, на каком основании?[VIDEO gangster1_said_thug][AUDIO HeyWhatReason][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired][MUSIC Graters]
 																																	По подозрению в совершении преступления.
 																																		[mark_m6h1s74vzudp9e4l918y]Сперва пусть следак мне повестку отобъет.[VIDEO gangster1_said_thug][AUDIO GiveMeNoticeFromPolice][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 																																			Я тебя на месте преступления застал.
@@ -40,7 +40,7 @@
 																																							Следователь предъявит.
 																																								[gangstar_roof]Мент, ты в курсях, кто наш бугор?[VIDEO gangster1_said_thug][AUDIO DoYouKnowWhoOurBoss][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 																																									Кто?
-																																										[mark_eg2c6xo21h3uu79hme5z]Прокурор.[VIDEO gangster1_said_thug][AUDIO Prokuror][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+																																										[EPISODE2]Прокурор.[VIDEO gangster1_said_thug][AUDIO Prokuror][BGNDVIDEO gangsters_look_thug_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 																																											Значит ты общаешься с ментами?
 																																												[mark_a2g753txu9s0q1m5t764]Эээ! Ты не путай понятия![VIDEO gangster1_said_agressive][AUDIO HeyDontChangeUnderstandings][BGNDVIDEO gangsters_look_agressive_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 																																													Отпусти парня, и я никому не скажу про то, что ты водишься с ментами.
@@ -190,22 +190,22 @@
 																																																																																	Я помогу тебе ...
 																																																																																		[mark_6v471s4n261h56yfn5v8]Помоги мне подняться...[VIDEO victim_sit_said_hero][AUDIO help_me_get_up][BGNDVIDEO victim_sit_looks_loop][ANSWERTIME 20][TIMEEXPIRED Mark_Final21_1]
 																																																																																			Сейчас.
-																																																																																				[Mark_Final21_1][FINAL Бах! Тебя подстрелили со спины. Отрицательный финал.][VIDEO boss_kills_hero_back1][SOUNDFX sfx_shot][MUSIC none]
+																																																																																				[mark_052l992eroz27ymp42pv][GOTO last_victim_wish]
 																																																																																			[i_call_medic]Лучше не двигайся, я вызову скорую.
 																																																																																				[mark_mqf78j89s43gh258vny9]- Диспетчер! Диспетчер! Срочно нужна скорая![AUDIO DispatcherDispatcher][VIDEO victim_sit_looks_loop][IMAGE radio.png|450;150;2;2;30;1]
 																																																																																					
 																																																																																						[mark_lj4nx6k8cp2uk79t6eiy]Диспетчер: - Ожидайте... ожидайте...ожидайте...[AUDIO WaitWaitWait][VIDEO victim_sit_looks_loop][IMAGE radio.png|450;150;2;2;30;1]
 																																																																																							
-																																																																																								[mark_4gyq34n39hz4f3sc18er]Я умираю... обещай исполнить мою последнюю просьбу...[VIDEO victim_sit_said_hero][AUDIO MakeMyLastWish][BGNDVIDEO victim_sit_looks_loop][ANSWERTIME 20][TIMEEXPIRED Mark_Final21_1]
-																																																																																									Хорошо, исполню
-																																																																																										[mark_5o791tfj96w7ulsj40ne]Переведи денег на яндекс кошелек... https://money.yandex.ru/to/41001220674141[VIDEO victim_sit_said_hero][AUDIO TransferMoneyToYandex]
-																																																																																											Хорошо
-																																																																																												[Mark_Final31]Парень умер. Исполнишь его последнюю просьбу?[VIDEO hero_looks_dead_victim_aside][MUSIC none]
+																																																																																								[last_victim_wish]Я умираю... обещай исполнить мою последнюю просьбу...[VIDEO victim_sit_said_hero][AUDIO MakeMyLastWish][BGNDVIDEO victim_sit_looks_loop][ANSWERTIME 20][TIMEEXPIRED Mark_Final21_1]
+																																																																																									Какую?
+																																																																																										[mark_5o791tfj96w7ulsj40ne]Переведи денег... (далее не разборчиво)[VIDEO victim_sit_said_hero][AUDIO TransferMoney]
+																																																																																											Хорошо, постараюсь исполнить.
+																																																																																												[Mark_Final31]Парень умер. Исполнишь его последнюю просьбу?[BGNDVIDEO hero_looks_dead_victim_aside][MUSIC none]
 																																																																																													Да, переведу денег.
-																																																																																														[mark_ez03a28o45fzfb4f40en][GOTO Mark_Final1_1]
+																																																																																														[mark_ez03a28o45fzfb4f40en][GOTO wait2]
 																																																																																													Да и хрен с ним.
-																																																																																														[mark_l7yhyi5on90kb4au9jkz][GOTO Mark_Final21_1]
-																																																																																									Извини, не могу
+																																																																																														[Mark_Final21_1][FINAL Бах! Тебя подстрелили со спины. Отрицательный финал.][VIDEO boss_kills_hero_back1][SOUNDFX sfx_shot][MUSIC none]
+																																																																																									Извини, не могу.
 																																																																																										[mark_g32iyr946873c7fb0734][GOTO Mark_Final21_1]
 																																																																																	[GOTO i_call_medic]
 																																																																													Ё-моё! Такое только в кино бывает![VIDEO hero_in_camera1][MUSIC none][SOUNDFX InCamera]
@@ -213,7 +213,7 @@
 																																																																									Потому что его сделали козлом отпущения!
 																																																																										[you_lie_policeman]Ты гонишь, мент![VIDEO gangster2_said_hero_gangster1_scared][AUDIO YouLiePoliceman]
 																																																																											
-																																																																												[mark_631m81766y17l28d5lqe][VIDEO gangster2_cutted_hero][AUDIO silent_2.6]
+																																																																												[mark_631m81766y17l28d5lqe]...[VIDEO gangster2_cutted_hero][AUDIO silent_2.6]
 																																																																													
 																																																																														[Mark_Final29][FINAL Тебя порезал Кирпич. Отрицательный финал.][BGNDVIDEO hero_in_blood][MUSIC none]
 																																																																							Твой брат оказался слабак!
@@ -230,7 +230,7 @@
 																																																																											
 																																																																												[mark_i038k9yg19xeos2sorkj][GOTO Mark_Final20]
 																																																																					Конечно.
-																																																																						[mark_t1k4768e2zzu429f1fq8]Говори.[VIDEO gangster2_said_gloomily][AUDIO LetsSay]
+																																																																						[EPISODE7]Говори.[VIDEO gangster2_said_gloomily][AUDIO LetsSay]
 																																																																							
 																																																																								[mark_2388n74kb5x7k372m846]Да смотри не ошибись.[VIDEO gangster1_said_gloomily][AUDIO ButBeRight][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 																																																																									Его вообще не Калган зовут, а Василий.
@@ -240,15 +240,15 @@
 																																																																													
 																																																																														[mark_dpa9h64g995quu4z4jm7]Босс спрашивает, это правда?[VIDEO driver_asks_hero][AUDIO BossAsksIsThatTrueth]
 																																																																															
-																																																																																[mark_5kw0dn6w59m6nj0x14hv][AUDIO silent_0.37][VIDEO hero_turns_out_driver]
+																																																																																[mark_5kw0dn6w59m6nj0x14hv]...[AUDIO silent_0.37][VIDEO hero_turns_out_driver]
 																																																																																	
-																																																																																		[mark_gdmi6t323blebxdagxkp][VIDEO gangster1_kills_himself][AUDIO silent_6.24][SOUNDFX sfx_shot3sec]
+																																																																																		[mark_gdmi6t323blebxdagxkp]...[VIDEO gangster1_kills_himself][AUDIO silent_6.24][SOUNDFX sfx_shot3sec]
 																																																																																			
 																																																																																				[hey_smartass]Эй, умник![VIDEO hero_turns_to_boss][AUDIO hey_smartass]
 																																																																																					
 																																																																																						[mark_s76a4rzo0zry9ld6n49u]Твоя очередь.[AUDIO YourTurn][VIDEO boss_said_victim]
 																																																																																							
-																																																																																								[mark_1834501q60vp0j63n96j][VIDEO hero_was_killed_by_boss][AUDIO silent_2.7][SOUNDFX sfx_shot]
+																																																																																								[mark_1834501q60vp0j63n96j]...[VIDEO hero_was_killed_by_boss][AUDIO silent_2.7][SOUNDFX sfx_shot]
 																																																																																									
 																																																																																										[mark_7kv1nn1er21i2vpkg58c][GOTO Mark_Final22]
 																																																																											И в школе он был лохом.
@@ -262,7 +262,7 @@
 																																																																													
 																																																																														[mark_2qy1qvj40bp81j6vxh14]...а сразу валить![VIDEO driver_asks_hero][AUDIO BossSaidKillPoliceman]
 																																																																															
-																																																																																[mark_1jgoxk706j430h47uz8s][AUDIO silent_0.37][VIDEO hero_turns_out_driver]
+																																																																																[mark_1jgoxk706j430h47uz8s]...[AUDIO silent_0.37][VIDEO hero_turns_out_driver]
 																																																																																	
 																																																																																		[Mark_Final20][FINAL Тебя пристрелил Калган. Отрицательный финал.][VIDEO gangster1_kills_hero][SOUNDFX sfx_shot][MUSIC none]
 																																																											Чепушило.
@@ -328,11 +328,11 @@
 																																											Прокурор с бандитами дел не имеет.
 																																												[mark_64spvzei41666pvl3389](у Калгана звонит мобила)[AUDIO crime_peterburg][VIDEO gangsters_look_thug_loop]
 																																													
-																																														[mark_v6esu5564058w3682812][AUDIO silent_1][VIDEO gangster1_takes_mobile]
+																																														[mark_v6esu5564058w3682812]...[AUDIO silent_1][VIDEO gangster1_takes_mobile]
 																																															
 																																																[mark_i73x6x47syzti64i79qb]Ангелина: - Алло, Калганчик? У меня тут хата пустует, приезжай...[VIDEO gangster1_mobile][AUDIO Angelina][VIDEO gangster1_mobile]
 																																																	
-																																																		[mark_86o63l6eer08a3t70s2f][AUDIO silent_1][VIDEO gangster1_hides_mobile]
+																																																		[mark_86o63l6eer08a3t70s2f]...[AUDIO silent_1][VIDEO gangster1_hides_mobile]
 																																																			
 																																																				[mark_642j5g3x13e30735l6ni][GOTO get_this_body_policeman]
 																																									Мне все равно.
@@ -579,7 +579,7 @@
 	[buy_episodes]Эпизоды игры.
 		[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.sg3.episodes";'';}{script getPayment}
 			
-				[wait2]Добавь себе возможность перехода по эпизодам игры с помощью специальной кнопки![IMAGE episodes.jpg][AUDIO silent_3]
+				[wait2]Добавь себе возможность перехода по эпизодам игры с помощью специальной кнопки.[IMAGE episodes.jpg][AUDIO silent_3]
 					
 						[mark_7u249b2lf7c472494fvi]{script checkPayment2}
 							

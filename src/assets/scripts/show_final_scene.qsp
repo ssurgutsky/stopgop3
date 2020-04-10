@@ -1,4 +1,4 @@
-let result = '';
+let result = '...';
 if (this.loud == 0) {result = '[VIDEO boss_said_victim]'}
 result = result + '[ANSWERTIME 5][TIMEEXPIRED shot]';
 result = result + '[BGNDVIDEO boss_aims_victim]';
