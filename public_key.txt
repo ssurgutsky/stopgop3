@@ -2,3 +2,4 @@ ProductId: com.kri_games.sg3.episodes
 
 Play Console -> Apps -> an App -> Development Tools -> Services and API
 
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkGggYPSga8+cMn2AIl+RNcTukBrqYj7EyOuLP4stFJuvxI79g7hdOjealrvgdRw6Ve6q5J+Yp1og9k0hCpDgKDdGBg0S7+A/491MQ7KiYxc6dduk7tTDMSpQN+9g8AeQ1SimBrS+HFurESVvv/SR0wqHAwrmgt3EFMUwM50Opx9xkYDf8cYL+IQWc2y57EU4bBM74GDk1fRL2ZIeVjkXw49fMF9aJOi4lOH+O3pJwVkxNqHCpZ1OuoIoux68ltcqwKPkZAFGuNM9K31pq42958hhZCzsO84irB4Ig60Aba1vrTnlHMKuvUUZcMZat3wTqcg61XBcHF75Fb1kOLfAHQIDAQAB

@@ -96,7 +96,7 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-purchase": {
-        "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtIeLhjBPWzJAjScBibgdlGCDbyE5HR0X5rWLHIkQAkuz5gMrn14RIAR6wdlkrNFfcy5VCIwFcC2a2i8URXiriKaeNiJQubaWYjN+NxI13wUlqLwMVeitTWljmdtq63T9lFr9uiaGjNRgDIKwPlIsaqwqf1+RRSwLHbw6dXlKHUL06TpERm4hOz80mk6HqwOKbdqN2yNpo19yuyAoZrpnnNDZ3QhJ6BJvxQ6rQyuas+++qokpXFd7PjVB6JK2O7Z1Qb+qNAPQ/zbOlYvYD9pHgrAEDTsy2khR4m1KydoleToW60gOUnGX9Cqi+7doXU/TsViVukr8M/5fYIp8l4ZviQIDAQAB"
+        "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkGggYPSga8+cMn2AIl+RNcTukBrqYj7EyOuLP4stFJuvxI79g7hdOjealrvgdRw6Ve6q5J+Yp1og9k0hCpDgKDdGBg0S7+A/491MQ7KiYxc6dduk7tTDMSpQN+9g8AeQ1SimBrS+HFurESVvv/SR0wqHAwrmgt3EFMUwM50Opx9xkYDf8cYL+IQWc2y57EU4bBM74GDk1fRL2ZIeVjkXw49fMF9aJOi4lOH+O3pJwVkxNqHCpZ1OuoIoux68ltcqwKPkZAFGuNM9K31pq42958hhZCzsO84irB4Ig60Aba1vrTnlHMKuvUUZcMZat3wTqcg61XBcHF75Fb1kOLfAHQIDAQAB"
       }
     },
     "platforms": [

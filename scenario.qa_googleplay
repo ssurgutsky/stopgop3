@@ -1,10 +1,10 @@
-[START]StopGop 3. Полицейская история.[BGNDVIDEO poster][BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]{this.lang='ru';''}{script initSystem}
+[START]Sim-Gop 3. Полицейская история.[BGNDVIDEO poster][BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]{this.lang='ru';''}{script initSystem}
 	[play_game]START THE GAME / Начать игру.
 		[mark_u4t9ekyx6kycu0y3oscl][VIDEO none][IMAGE black.jpg]Полицейский! Совершается преступление![AUDIO AttentionCrimeInProgress]
 			
-				[GAME_SAVEPOINT]Полицейский! Совершается преступление![BGNDVIDEO gangsters_torture_victim1||gangsters_torture_victim2][AMBIENT AmbientStreet][MUSIC Meeting][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
-					Ребята, закурить не найдется?[VIDEO gangsters_are_turning]
-						[mark_170fr6wre6n1sk5h9geo]Подожди пять сек, сейчас кента заколбасим и покурим.[AUDIO Wait5secKentBeat][VIDEO gangster2_said_gloomily][BGNDVIDEO gangsters_torture_victim1||gangsters_torture_victim2][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+				[GAME_SAVEPOINT]Полицейский! Совершается преступление![VIDEO gangsters_are_turning][AUDIO silent_2][BGNDVIDEO gangsters_look_gloomily_loop][AMBIENT AmbientStreet][MUSIC Meeting][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
+					Ребята, закурить не найдется?
+						[mark_170fr6wre6n1sk5h9geo]Подожди пять сек, сейчас кента заколбасим и покурим.[AUDIO Wait5secKentBeat][VIDEO gangster2_said_gloomily][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 							За что вы его?[VIDEO gangsters_are_turning]
 								[mark_k7iv2v7k815067680va7]Бабло отдавать не хочет.[AUDIO BabloNeOtdaet][VIDEO gangster2_said_gloomily][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 									Давайте его мне, я разберусь.
@@ -119,16 +119,27 @@
 																																																																																																																				[EPISODE6]Главный положительный финал! Понравилось? Подкинь деньжат на следующую часть![MUSIC ThemeFinal][BGNDVIDEO titles][AMBIENT none]
 																																																																																																																					Не дам денег.
 																																																																																																																						[mark_7l100t75671nv41uxjhl]Гони бабло! Или умри... Гони бабло! Или умри... Гони бабло! Или умри...[BGNDVIDEO boss_said_player][BGNDAUDIO GiveMoneyOrDie]
-																																																																																																																							[donate2]Ладно, дам бабло!
-																																																																																																																								[mark_ht148aj862wm21q30ogd][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on" width="450" height="199"]
+																																																																																																																							[donate]Ладно, ладно, дам бабло!
+																																																																																																																								[Mark_Final1_1]{this.productId = "com.kri_games.sg3.coin1";'';}{script getPayment}
 																																																																																																																									
-																																																																																																																										[mark_7g7o9fk639gwr7a9gm79]Поздравления! 100% прохождение игры! Ты лучший![AUDIO silent_0.208][VIDEO dead_boss]
-																																																																																																																											В начало.
-																																																																																																																												[mark_p3r56ox4bmgf8pj65p2c][GOTO START]
-																																																																																																																										[fuck_boss]Да пошёл ты!
-																																																																																																																											[Mark_Final39][FINAL Тебя всё-таки пристрелил Босс. Отрицательный финал.][VIDEO boss_kills_player][SOUNDFX sfx_shot]
+																																																																																																																										[wait]...[VIDEO boss_said_player][AUDIO silent_2]
+																																																																																																																											
+																																																																																																																												[mark_m3t1qf7plkan74atf750]{script checkPayment}
+																																																																																																																													
+																																																																																																																														[payment_success]...[IMAGE episodes.jpg][PURCHASE cheats]
+																																																																																																																															
+																																																																																																																																[mark_48970q2q5xp3i3q84z33]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
+																																																																																																																																	>>>
+																																																																																																																																		[mark_7g7o9fk639gwr7a9gm79]Поздравления! 100% прохождение игры! Ты лучший![AUDIO silent_0.208][VIDEO dead_boss]
+																																																																																																																																			В начало.
+																																																																																																																																				[mark_p3r56ox4bmgf8pj65p2c][GOTO START]
+																																																																																																																														[payment_fail]Что то не так, попробуй еще раз.[BGNDVIDEO boss_said_player][BGNDAUDIO GiveMoneyOrDie]
+																																																																																																																															[GOTO donate]
+																																																																																																																															[fuck_boss]Да пошёл ты!
+																																																																																																																																[Mark_Final39][FINAL Тебя всё-таки пристрелил Босс. Отрицательный финал.][VIDEO boss_kills_player][SOUNDFX sfx_shot]
 																																																																																																																							[GOTO fuck_boss]
-																																																																																																																					[GOTO donate2]
+																																																																																																																					Отправлю деньжат.
+																																																																																																																						[mark_090r4w84xoif45q17u1n][GOTO Mark_Final1_1]
 																																																																																																							Промолчу.
 																																																																																																								[mark_h8bjh70nu5oev964m751]Ну что ж... пусть будет по твоему.{script cat_thinks.qsp}{script brick_thinks.qsp}[AUDIO SoLetItBeYours]{script show_final_scene.qsp}{this.loud=1;'';}
 																																																																																																									>>>[VIDEO boss_kills_victim][SOUNDFX sfx_shot]
@@ -544,9 +555,9 @@
 										[mark_21o5640u3u1g1213398q][GOTO Mark_Final24_1]
 									Прошу прислать подкрепление![VIDEO gangsters_catch_hero]
 										[mark_zwcjrbbzv5dj5u18n3y0][GOTO Mark_Final27]
-					Эй, вы что там делаете?[VIDEO gangsters_are_turning]
+					Эй, вы что там делаете?
 						[mark_l9t8cqx2hv64b8j2q31k][GOTO hey_policemen_passing]
-					Никому не двигаться! Полиция![VIDEO gangsters_are_turning]
+					Никому не двигаться! Полиция!
 						[mark_p06lq33s87p3mla087f2]У кого там здоровья дохрена?[VIDEO gangster1_said_gloomily][AUDIO WhoHasMoreHealth][BGNDVIDEO gangsters_look_gloomily_loop][ANSWERSORDER random][ANSWERTIME 30][TIMEEXPIRED time_expired]
 							[GOTO I_am_new_russian_policeman]
 							Я сказал не двигаться!
@@ -563,8 +574,17 @@
 														[Mark_Final37][FINAL Ты напугал актеров и сорвал съемки. Отрицательный финал.][MUSIC none]
 							Вызову подкрепление.
 								[mark_601knfj16di9o18673v5][GOTO call_dispatcher]
-					[donate]Достать лопатник.
-						[mark_ht148aj862wm21q30ogd][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on" width="450" height="199"]
+	[buy_episodes]Эпизоды игры.
+		[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.sg3.episodes";'';}{script getPayment}
+			
+				[wait2]Добавь себе возможность перехода по эпизодам игры с помощью специальной кнопки.[IMAGE episodes.jpg][AUDIO silent_3]
+					
+						[mark_7u249b2lf7c472494fvi]{script checkPayment2}
 							
-								[mark_a8m0j5aila4v2cx2e964][GOTO START]
-	[GOTO donate]
+								[payment_success2]...[IMAGE episodes.jpg][PURCHASE cheats]
+									
+										[mark_lo9fb6iz5619s1v1w24v]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
+											>>>
+												[mark_790313417a53d817ku7r][GOTO START]
+								[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg]
+									[GOTO buy_episodes]
