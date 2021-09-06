@@ -1,4 +1,4 @@
-[START]StopGop 3. Полицейская история.[BGNDVIDEO poster][BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER OFF]{this.lang='ru';''}{script initSystem}
+[START]StopGop 3. Полицейская история.\nv1.{this.game_version}[BGNDVIDEO poster][BGNDIMAGE poster.png][AMBIENT none][MUSIC poster][ANSWERSORDER ON]{this.lang='ru';''}{script initSystem}
 	[play_game]START THE GAME / Начать игру.
 		[mark_u4t9ekyx6kycu0y3oscl][VIDEO none][IMAGE black.jpg]Полицейский! Совершается преступление![AUDIO AttentionCrimeInProgress]
 			
@@ -567,4 +567,13 @@
 						[mark_ht148aj862wm21q30ogd][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on" width="450" height="199"]
 							
 								[mark_a8m0j5aila4v2cx2e964][GOTO START]
+					[ddonate]Закивасить.
+						[mark_t319971dwu2865mjn7qo][NAVIGATEURL https://qiwi.com/n/SERJIOS]
+							
+								[mark_8r456ve83222mbv60b0m][GOTO START]
+	Donate / Дать денежку
+		[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
+			
+				[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
 	[GOTO donate]
+	[GOTO ddonate]
