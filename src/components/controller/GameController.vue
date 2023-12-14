@@ -434,7 +434,7 @@ export default {
     },
 
     donate () {
-      window.open('https://qiwi.com/n/SERJIOS', '_system')
+      window.open('https://www.tinkoff.ru/cf/7xIiPBRWF9P', '_system')
     }
 
   }
